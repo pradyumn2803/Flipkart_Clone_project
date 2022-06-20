@@ -1,0 +1,11 @@
+footer {
+    background-color: rgb(97, 97, 235);
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+
+.cpright {
+    padding: 24px;
+    margin: 4px;
+}
