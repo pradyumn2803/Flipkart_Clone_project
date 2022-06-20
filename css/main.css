@@ -1,0 +1,38 @@
+.container {
+    min-height: calc(100vh - 9vh - 68px)
+}
+
+.slider img{
+    height: 426px;
+    width: 995px;
+    margin: 80px 250px 10px 250px;
+}
+.box
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 19px 35px;
+    border: 1px solid rgb(191, 189, 189);
+}
+
+.box h2{
+    margin: 0px 13px;
+}
+
+.card{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card img{
+    height: 150px;
+    width: 200px;
+    margin: 0px 15px;
+}
+
+.card p{
+    text-align: center;
+}
+
