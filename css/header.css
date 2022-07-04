@@ -7,30 +7,30 @@
 
 header {
     background-color: rgb(97, 97, 235);
-    height: 9vh;
-    /* width: auto; */
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
     position: fixed;
 }
 
 nav{
     width: 100vw;
+    height: 10vh;
     display: flex;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
-    width: 100px;
-    height: 29px;
-    padding: 20px 27px;
+    width: 88px;
+    padding: 0px 25px;
 }
 
 nav ul {
     display: flex;
     justify-content: flex-start;
     text-align: center;
-    margin: 25px;
+    padding: 24px 0px 0px 0px;
 }
 
 nav ul li {
@@ -49,47 +49,24 @@ nav ul li a:hover {
 }
 
 .search_bar {
-    padding: 18px 23px;
-    width: 123px;
+    display: flex;
+    align-items: center;
 }
 
 .search_bar input {
     width: 26vw;
     height: 30px;
     border-radius: 5px;
-    padding: 0px 23px;
+    margin: 0 6px;
+    padding: 0px 12px;
 }
 
 
-.search_img {
-    width: 4px;
-}
-
-.search_img img {
-    height: 28px;
-    padding: 23px 276px;
-}
-
-.btn {
-    display: inline-flex;
-    margin: 4px 245px;
+.search_bar button{
+    background-color: rgb(97, 97, 235);
+    border-radius: 5px;
+    color: white;
+    width: 55px;
     /* width: 23px; */
 }
 
-.bttn {
-    width: 55px;
-    height: 25px;
-    background-color: rgb(97, 97, 235);
-    color: white;
-    border-radius: 5px;
-    margin: 20px 67px;
-}
-
-.login_btn {
-    width: 96px;
-    height: 28px;
-    background-color: rgb(97, 97, 235);
-    color: white;
-    border-radius: 5px;
-    margin: 20px -200px;
-}

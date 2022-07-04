@@ -1,7 +1,10 @@
 .container {
     min-height: calc(100vh - 9vh - 68px)
 }
-
+.slider{
+    display: flex;
+    justify-content: center;
+}
 .slider img{
     height: 426px;
     width: 995px;
